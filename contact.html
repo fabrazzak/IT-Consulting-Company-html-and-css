@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt Oss - IT Konsulentselskap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigasjon -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">IT Konsulentselskap</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="services.html">Tjenester</a></li>
+                <li><a href="projects.html">Prosjekter</a></li>
+                <li><a class="active-link" href="contact.html">Kontakt Oss</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Kontaktseksjon -->
+    <section class="contact">
+        <div class="contact-container">
+            <!-- Kontaktinformasjon -->
+            <div class="contact-info">
+                <h2>Kontakt Oss</h2>
+                <p>Har du spørsmål? Vi vil gjerne høre fra deg! Ta kontakt med oss, så svarer vi så snart som mulig.</p>
+
+                <div class="contact-details">
+                    <div class="detail">
+                        <h3>E-post</h3>
+                        <p>info@itsolutions.com</p>
+                    </div>
+                    <div class="detail">
+                        <h3>Telefon</h3>
+                        <p>+1 234 567 890</p>
+                    </div>
+                    <div class="detail">
+                        <h3>Adresse</h3>
+                        <p>123 Teknologigata, By, Land</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kontakt Skjema -->
+            <div class="contact-form">
+                <h2>Send Oss En Melding</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Ditt Navn</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Din E-post</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Din Melding</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">Send Melding</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Google Kart -->
+        <div class="map-container">
+            <h2>Vår Beliggenhet</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=https://www.google.com/maps/place/Norway" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- FAQ Seksjon -->
+    <section class="faq">
+        <div class="faq-container">
+            <h2>Ofte Stilte Spørsmål</h2>
+            <div class="faq-item">
+                <h3>Hva er deres prismodeller?</h3>
+                <p>Vi tilbyr tilpassede priser basert på kompleksiteten og kravene til hvert prosjekt. Ta kontakt med oss for et tilbud skreddersydd til dine behov.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Hvilke teknologier spesialiserer dere i?</h3>
+                <p>Vi spesialiserer oss på webutvikling, cybersikkerhet og IT-konsulenttjenester, og bruker moderne teknologier som HTML, CSS, JavaScript, React og mer.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Hvor lang tid tar det å fullføre et prosjekt?</h3>
+                <p>Tiden for å fullføre hvert prosjekt avhenger av omfanget og kompleksiteten. Vanligvis fullfører vi mindre prosjekter på noen uker, mens større prosjekter kan ta flere måneder.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Tilbyr dere support etter prosjektets fullførelse?</h3>
+                <p>Ja, vi tilbyr kontinuerlig support og vedlikehold for å sikre langsiktig suksess for ditt prosjekt. Kontakt oss for mer informasjon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 IT Konsulentselskap. Alle rettigheter reservert.</p>
+    </footer>
+
+</body>
+</html>
